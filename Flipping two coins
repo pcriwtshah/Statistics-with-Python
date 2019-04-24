@@ -1,0 +1,6 @@
+#flipping two coins together
+two_coin = []
+for i in range(10):
+    flip = random.choice(['HH','HT','TH','TT'])
+    two_coin.append(flip)
+two_coin
