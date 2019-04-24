@@ -1,1 +1,35 @@
+###########################################
+Calculating Mean by using library functions
+###########################################
 
+import numpy as np
+
+list1 = [1,2,3,4,5,6, 7]
+
+mean = np.mean(list1)
+
+mean
+
+4.0
+
+#######################################
+Calculating Mean by defining a function
+#######################################
+
+# defining a function called mean
+
+def mean(x):
+
+    sum_of_obs = sum(x)     # Summing all the elements in a variable
+
+    total_obs = len(x)      # Total number of elements
+
+    mean = sum_of_obs/total_obs # Using the mean formula
+
+    print(mean)
+
+y = [3,4,5,6,7,8]
+
+mean(y)
+
+5.5
