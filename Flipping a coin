@@ -1,3 +1,5 @@
+import numpy as np
+
 # First we let user input how many times they want to flip a coin
 
 x = int(input("How many times you want to flip a coin : "))
