@@ -1,0 +1,22 @@
+# First we let user input how many times they want to flip a coin
+
+x = int(input("How many times you want to flip a coin : "))
+coin = [] 
+
+#Lets flip a coin that many times
+
+for i in range(x):
+    toss = np.random.randint(0,2)
+    if toss ==0:
+          b = print("H")
+    else:
+          b = print("T")
+    coin.append(toss) 
+coin
+count = 0
+for i in coin:
+     if i == 0:
+        count = count+1
+#count
+print("The total number of heads are ",count)
+print("The total number of Tails are", x-count)
